@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #ff0000;
+            margin-bottom: 20px;
+        }
+        .video {
+            margin-bottom: 30px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .video h2 {
+            margin: 0;
+            padding: 10px;
+            background-color: #ff0000;
+            color: #fff;
+            font-size: 1.2em;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            text-align: center;
+        }
+        .video video {
+            width: 100%;
+            display: block;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Video Gallery</h1>
+
+        <!-- Video 1 -->
+        <div class="video">
+            <h2>Video 1</h2>
+            <video controls controlsList="nodownload">
+                <source src="video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="video">
+            <h2>Video 2</h2>
+            <video controls controlsList="nodownload">
+                <source src="video2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- Video 3 -->
+        <div class="video">
+            <h2>Video 3</h2>
+            <video controls controlsList="nodownload">
+                <source src="video3.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+      <h3>Copyrhigt 2024 Teknik AB<h3>
+    </div>
+</body>
+</html>
